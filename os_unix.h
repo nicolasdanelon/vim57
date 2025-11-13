@@ -1,3 +1,9 @@
+/*
+ * In Vim 5.7, automatic function declarations were assumed, but C99 eliminated that allowance. macOS further enforces this with the modern Clang SDK.
+*/
+#include <sys/ioctl.h>
+#include <unistd.h>
+
 /* vi:set ts=8 sts=4 sw=4:
  *
  * VIM - Vi IMproved	by Bram Moolenaar
